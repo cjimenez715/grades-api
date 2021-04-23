@@ -29,7 +29,7 @@ app.use(
 app.use(gradeRouter);
 
 app.get('/', (_, res) => {
-  res.send('API em execucao');
+  res.send('API Grades is Working!');
 });
 
 app.listen(process.env.PORT || 8081, () => { });
